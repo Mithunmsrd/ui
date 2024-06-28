@@ -3,6 +3,7 @@ import rp from '../assets/images/rp.png'
 const Coursecard = ({course}) => {
 
   const [showFullDescription, setShowFullDescription] = useState(false)
+  
   let description = course.description;
 
   if(!showFullDescription){
